@@ -89,13 +89,14 @@ h3{
 
 .percentage{
     background-color: var(--fill-color);
-    color: white;
+    color: var(--border-color);
     font-size: 30px;
     font-weight: bold;
     height: 0;
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;   
+    transition: 0.5s ease; 
 }
 
 .text{
